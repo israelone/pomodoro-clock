@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head > 
+    
+    <title>Pomodoro Clock</title>
+    <script src="https://kit.fontawesome.com/91e5a107a3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type"text/css" href="pomodoroClock.css">
+
+</head>
+
+<body>
+
+<div id="clock">
+
+    <div id="timeSettings">
+    
+        <div id="session">
+        
+            <h2>Session</h2>
+
+                <div class="minutesCountControls">
+                    <i id="sessionMinutesUp" class="fas fa-caret-up"></i>
+                    <h1 class="numberSelector" id="sessionInput">25</h1> 
+                    <i id="sessionMinutesDown" class="fas fa-caret-down"></i>
+                </div>  
+
+        </div>
+        
+
+        <div id="break">
+
+            <h2>Break</h2>
+
+                <div class="minutesCountControl">
+                    <i id="breakMinutesUp" class="fas fa-caret-up"></i>
+                    <h1 class="numberSelector" id="breakInput">5</h1>
+                    <i id="breakMinutesDown" class="fas fa-caret-down"></i>
+                </div>
+        </div>
+
+    </div>
+
+    <div id="clockDisplay">
+
+        <div id="controls">
+
+            <i id="play" class="fas fa-play"></i>
+            <i id="pause" class="fas fa-pause"></i>
+            <i id="stop" class="fas fa-stop"></i>
+            <i id="restart" class="fas fa-redo-alt"></i>
+
+        </div>
+
+        <div id="timer">    
+            <h1 id="breakOrSession">Session </h1>
+            <h1 ><span id="minutes">25</span>:<span id=seconds>00</span></h1>
+        </div>    
+            
+    </div>
+
+</div>
+
+</body>
+
+<script src="pomodoroClock.js"></script>
+
+</html>

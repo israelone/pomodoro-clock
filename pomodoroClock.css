@@ -1,0 +1,63 @@
+body, html{
+   
+    margin: 0;
+}
+
+#clock{
+
+    margin: auto;
+    margin-top:110px;
+    width: 450px;
+    height: 320px;
+    
+}
+
+.numberSelector{
+    display: inline-block;
+}
+
+i{
+
+    font-size: 50px;
+}
+
+i:hover{
+    color: blue;
+    }
+
+#timeSettings{
+    display: flex;
+}
+
+h2{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    padding:0 2px;
+}
+
+
+
+#controls{
+    margin:0 auto;
+    width: fit-content;
+}
+
+ #timeSettings{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#session{
+    padding-right: 100px;
+}
+
+#break{
+    padding-left: 100px;
+}
+
+#clockDisplay i{
+    margin: 0 30px;
+}
